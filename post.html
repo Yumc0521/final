@@ -1,0 +1,66 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monologue </title>
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="topnav">
+            <div class="row">
+              <div class="large-4 columns"><h3><img src="assets/img/logoimg.png"></img><a href="index.html">Monologue.com </a></h3></div>
+              <div class="large-4 columns"><a href="post.html"><b><u>Write your story</u></b></a></div>
+              <div class="large-4 columns"><a href="signin.html"><u>Sign in / sign up</u></a>
+            </div>
+        </div>
+      <hr>
+
+      <div class="row">
+      <div class="large-12 columns">
+        <div class="search">
+          <div class="search-box">
+            <div class="row">
+              <div class="large-12 columns">
+               <div class="primary callout">
+    				  	<form method="POST" action="assets/php/post.php">
+    						<img src="assets/img/logoimg.png">
+    						<hr>
+							      <select name="type">
+									<option value="none"> </option>
+									<option value="technology">Technology</option>
+									<option value="life">Life</option>
+									<option value="culture">Culture</option>
+									<option value="work">Work</option>
+									<option value="digital design">Digital design</option>
+								  </select><br>
+    						<textarea type="text" id="title" name="title" cols="150" placeholder="Title"></textarea>
+    						<textarea type="text" id="information" name="information" rows="45" cols="150"></textarea><br>
+    						<input type="submit" value="Publish">
+    					</form>
+            </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+    <script src="assets/js/app.js"></script>
+  <script>
+function myFunction() {
+    var x = document.getElementById("thetopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+  </script>
+  </body>
+</html>

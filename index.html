@@ -1,0 +1,138 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monologue </title>
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="topnav">
+            <div class="row">
+              <div class="large-4 columns"><h3><img src="assets/img/logoimg.png"></img><a href="index.html">Monologue.com </a></h3></div>
+              <div class="large-4 columns"><a href="post.html"><b><u>Write your story</u></b></a></div>
+              <div class="large-4 columns"><a href="signin.html"><u>Sign in / sign up</u></a>
+            </div>
+        </div>
+      <hr>
+      <a href="index.html"><img src="assets/img/logo.png"></img></a>
+      </div>
+
+      <div class="topnav" id="thetopnav">
+         <a href="index.html">Home </a> 
+         <a href="#popular">Popular on Monologue</a> 
+         <a href="#">Bookmark</a> 
+         <a href="#">Technology</a> 
+         <a href="#">Life</a> 
+         <a href="javascript:void(0);"class="icon" onclick="myFunction()">&#9776;</a> 
+    </div>
+    </div>
+    </div>
+    <div class="row">
+      <div id="popular">
+      <div class="large-12 columns">
+        <div class="search">
+            <div class="search-box">
+                        <h3>Monologue</h3>
+          <p>A blogging platform design to help you think.  </p>
+          <br><br>
+            <div class="row">
+			<form method="POST" action="searchws.php">
+                <div class="large-6 medium-6 columns">
+                  <label>Search in the Monologue </label>
+                  <input type="text" name="title" placeholder="keywords e.g. paris" />
+                </div>
+              <div class="large-6 medium-6 columns">
+              <label>Search by type</label>
+              <select name="type">
+                <option value="none"> </option>
+                <option value="technology">Technology</option>
+                <option value="life">Life</option>
+                <option value="culture">Culture</option>
+                <option value="work">Work</option>
+                <option value="digital design">Digital design</option>
+              </select>
+			  
+              </div>
+            </div>
+			<input type='submit' value='search' />
+			</form>
+
+          </div>
+          <hr>
+            <div class="row">
+              <div class="large-12 columns">
+              <h5>Popular on the Monologue</h5>
+              </div>
+              <div class="large-6 medium-6 columns">
+                <div class="primary callout">
+                  <img border="0" alt="car" src="assets/img/1.jpeg" >
+                  <hr>
+                  <h5>Cheaper, faster, better: logistics in the Era of Autonomous Vehicles</h5>
+                  <p>Tangible benefits for business operations and consumers alike</p>
+                  <a href="#">Read more</a>
+                </div>
+              </div>
+          
+              <div class="large-6 medium-6 columns">
+                <div class="primary callout">
+                  <img border="0" alt="wide out" src="assets/img/2.jpeg" >
+                  <hr>
+                  <h5>Representing Humans in Mixed Reality</h5>
+                  <p>The importance of volumetric video and authentic human capture</p>
+                  <a href="#">Read more</a>
+                </div>
+              </div>
+          
+              <div class="large-6 medium-6 columns">
+                <div class="primary callout">
+                  <img border="0" src="assets/img/3.jpeg" >
+                  <hr>
+                  <h5>Why we should accept it today that everything around us is temporary.</h5>
+                  <p>On a daily basis we meet new people, we buy or have new stuffs, we make memories, experience new feelings, time, knowledge...</p>
+                  <a href="#">Read more</a>
+                </div>
+              </div>
+
+            <div class="large-6 medium-6 columns">
+              <div class="primary callout">
+                <img border="0" src="assets/img/4.png" >
+                <hr>
+                  <h5>No, Art Is Never Really About the Story.</h5>
+                  <p>Against yet another silly consensus on narrative.</p>
+                  <a href="#">Read more</a>
+              </div>
+            </div>
+            <div class="large-6 medium-6 columns">
+              <div class="primary callout">
+                <img border="0" alt="cisco" src="assets/img/5.jpeg" >
+                <hr>
+                  <h5>Keeping Morale Afloat.</h5>
+                  <p>This was first published on my mailing list The Looking Glass. Every week, I answer a reader’s question.</p>
+                  <a href="#">Read more</a>
+              </div>
+            </div>
+        </div>
+        <p></p>
+        <a href="" class="small button"> Explore classes</a>   
+      </div>
+      </div>
+    </div>
+  </div>
+    <script src="assets/js/app.js"></script>
+  <script>
+function myFunction() {
+    var x = document.getElementById("thetopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+  </script>
+  </body>
+</html>
